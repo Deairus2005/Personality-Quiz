@@ -2,10 +2,10 @@
 // It will be reset each time the quiz starts
 // keys used (hover over, value is number)
 const scoreKeeper = {
-    dog: 0,
-    cat: 0,
-    parrot: 0,
-    turtle: 0,
+    red: 0,
+    purple: 0,
+    blue: 0,
+    green: 0,
 };
 
 let currentQuestionIndex = 0; // Programming languages start counting at zero
@@ -23,19 +23,19 @@ const questions = [
         options: [
             {
                 text: 'Playing games and making new friends',
-                point: 'dog',
+                point: 'red',
             },
             {
                 text: 'Watching from a corner, hoping someone interesting shows up',
-                point: 'cat',
+                point: 'purple',
             },
             {
                 text: 'Partying! Dressed up, chatting it up, dancing... maybe a little loud',
-                point: 'parrot',
+                point: 'blue',
             },
             {
                 text: 'I would help set up beforehand and make sure everything goes smoothly',
-                point: 'turtle',
+                point: 'green',
             },
         ],
     },
@@ -44,19 +44,19 @@ const questions = [
         options: [
             {
                 text: 'Take a walk outside',
-                point: 'dog',
+                point: 'red',
             },
             {
                 text: 'Lie out in the sun',
-                point: 'cat',
+                point: 'purple',
             },
             {
                 text: 'Go window shopping',
-                point: 'parrot',
+                point: 'blue',
             },
             {
                 text: 'Sit at home and do nothing',
-                point: 'turtle',
+                point: 'green',
             },
         ],
     },
@@ -65,20 +65,20 @@ const questions = [
         options: [
             {
                 text: 'Exercise',
-                point: 'dog',
+                point: 'red',
             },
             {
                 text: 'Tell someone off',
-                point: 'cat',
+                point: 'purple',
             },
             {
                 // inside a string, you have to escape quote marks with a \
                 text: 'Share how I\'m feeling',
-                point: 'parrot',
+                point: 'blue',
             },
             {
                 text: 'Have some alone time',
-                point: 'turtle',
+                point: 'green',
             },
         ],
     },
@@ -87,19 +87,19 @@ const questions = [
         options: [
             {
                 text: 'Playing sports or videogames with friends',
-                point: 'dog',
+                point: 'red',
             },
             {
                 text: 'Reading a book',
-                point: 'cat',
+                point: 'purple',
             },
             {
                 text: 'Just hanging out and talking with friends',
-                point: 'parrot',
+                point: 'blue',
             },
             {
                 text: 'Making things, or cleaning the house',
-                point: 'turtle',
+                point: 'green',
             },
         ],
     },
@@ -108,20 +108,20 @@ const questions = [
         options: [
             {
                 text: 'Someone who is fun and energetic',
-                point: 'dog',
+                point: 'red',
             },
             {
                 text: 'Someone who can be both quiet and playful',
-                point: 'cat',
+                point: 'purple',
             },
             {
                 text: 'Someone who I can share my secrets with',
-                point: 'parrot',
+                point: 'blue',
             },
             {
                 // inside a string, you have to escape quote marks with a \
                 text: 'Someone who doesn\'t have too many emotions',
-                point: 'turtle',
+                point: 'green',
             },
         ],
     },
